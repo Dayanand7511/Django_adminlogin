@@ -1,0 +1,21 @@
+<!-- templates/base.html -->
+{% load static %}
+
+<html>
+<head>
+
+
+
+  <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
+<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+  <link href="signin.css" rel="stylesheet">
+</head>
+<body>
+  <main>
+    {% block content %}
+    {% endblock %}
+  </main>
+</body>
+</html>
